@@ -1,4 +1,10 @@
-SKETCH = src/helloWorld.cpp
+THIS_DIR := $(realpath $(dir $(realpath $(lastword $(MAKEFILE_LIST)))))
+ROOT := $(THIS_DIR)/..
+LIBS =  \
+  $(THIS_DIR)/src \
+  $(THIS_DIR)/inc
+
+SKETCH = src/main.cpp
 BUILD_DIR = build
 FLASH_FILE = flash/nodemcuv2/esp_flash.bin
 FLASH_DEF = 4M
