@@ -1,8 +1,7 @@
 THIS_DIR := $(realpath $(dir $(realpath $(lastword $(MAKEFILE_LIST)))))
 ROOT := $(THIS_DIR)/..
 LIBS =  \
-  $(THIS_DIR)/src \
-  $(THIS_DIR)/inc
+  $(THIS_DIR)/src
 
 SKETCH = src/main.cpp
 BUILD_DIR = build

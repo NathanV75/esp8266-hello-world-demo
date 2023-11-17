@@ -1,6 +1,6 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
-#include "helloWorld.hpp"
+#include "helloWorld.h"
 
 ESP8266WebServer server(80);
 
