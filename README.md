@@ -1,5 +1,5 @@
 # Esp8266 Arduino Hello World Demo
----------
+
 A sample hello world application for the esp8266.
 
 ## Configuration
