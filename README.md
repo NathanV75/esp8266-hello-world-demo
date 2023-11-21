@@ -12,5 +12,5 @@ UPLOAD_PORT = /dev/ttyS12
 BUILD_EXTRA_FLAGS = -DAPSSID="\"Some other name\"" -DAPPASS="\"aGoodPassword\""
 ```
 ## Dependencies
-- [makeEspArduino](https://github.com/plerup/makeEspArduino) (tested with v6.9.3)
-- [Arduino core for ESP8266 WiFi chip](https://github.com/esp8266/Arduino) (tested with v3.0.2) (>v3.0.2 does not work with v6.9.3 or older of makeEspArduino)
+- [makeEspArduino](https://github.com/plerup/makeEspArduino) (tested with v6.9.4)
+- [Arduino core for ESP8266 WiFi chip](https://github.com/esp8266/Arduino) (tested with v3.1.2)
